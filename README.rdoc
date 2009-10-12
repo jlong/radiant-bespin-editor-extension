@@ -8,9 +8,13 @@ The Bespin Editor Extension replaces all textareas in Radiant with the Bespin ed
 
 To install the Bespin Editor Extension, open a command prompt, change directories to the root of your Radiant project, and execute the following commands:
 
-  git clone git://github.com/jlong/radiant-bespin-editor-extension.git   vendor/extensions/bespin_editor
-  rake radiant:extensions:page_attachments:migrate
-  rake radiant:extensions:page_attachments:update
+  script/extension install bespin_editor
+
+Or, use the more manual method:
+
+  git clone git://github.com/jlong/radiant-bespin-editor-extension.git vendor/extensions/bespin_editor
+  rake radiant:extensions:bespin_editor:update
+
 
 == Development and Support
 
