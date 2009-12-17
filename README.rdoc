@@ -4,6 +4,8 @@ Bespin is an embeddable source code editor from Mozilla that provides robust syn
 
 The Bespin Editor Extension replaces all textareas in Radiant with the Bespin editor. Note that Bespin only works in Web browsers that support the HTML canvas tag (Safari, Firefox, and Opera).
 
+<b>Please Note:</b> The Bespin Editor Extension requires Radiant 0.9 or higher.
+
 == Installation
 
 To install the Bespin Editor Extension, open a command prompt, change directories to the root of your Radiant project, and execute the following commands:
@@ -14,8 +16,6 @@ Or, use the more manual method:
 
   git clone git://github.com/jlong/radiant-bespin-editor-extension.git vendor/extensions/bespin_editor
   rake radiant:extensions:bespin_editor:update
-
-<b>Please Note:</b> The Bespin Editor Extension requires Radiant 0.9 or higher.
 
 == Development and Support
 
