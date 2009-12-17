@@ -9,7 +9,6 @@ module BespinEditorInterface
   module InstanceMethods
     def add_bespin_editor
       include_javascript 'admin/bespin.js'
-      include_javascript 'admin/bespin/themes/white.js'
       include_javascript 'admin/bespin/codearea.js'
     end
   end
