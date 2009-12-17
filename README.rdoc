@@ -15,7 +15,7 @@ Or, use the more manual method:
   git clone git://github.com/jlong/radiant-bespin-editor-extension.git vendor/extensions/bespin_editor
   rake radiant:extensions:bespin_editor:update
 
-*Please Note:* The Bespin Editor Extension requires Radiant 0.9 or higher.
+**Please Note:** The Bespin Editor Extension requires Radiant 0.9 or higher.
 
 == Development and Support
 
